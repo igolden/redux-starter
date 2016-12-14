@@ -1,3 +1,6 @@
 {
-  "presets" : ["ES2015", "react"]
+  "presets" : ["ES2015", "react"],
+  "plugins" : [["babel-root-import", {
+    "rootPathSuffix" : "app/"
+  }]]
 }

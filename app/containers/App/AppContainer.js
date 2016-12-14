@@ -1,5 +1,5 @@
 import React, { PropTypes, Component } from 'react'
-import {HelloWorld} from '../../components'
+import { HelloWorld } from '~/components'
 
 export class AppContainer extends Component {
   render () {
