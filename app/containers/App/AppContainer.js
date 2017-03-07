@@ -5,9 +5,15 @@ export class AppContainer extends Component {
   render () {
     return (
       <div>
-      <div>APP</div>
       <HelloWorld />
       </div>
     )
   }
 }
+
+
+// AppContainer
+// // ROUTER
+// // // Conditional Component
+// // // ? Loading Screen
+// // // : File Navigator

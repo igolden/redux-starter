@@ -11,6 +11,5 @@ const store = createStore(combineReducers(reducers), window.__REDUX_DEVTOOLS_EXT
 render(
    <Provider store={store}>
     <AppContainer />
-  </Provider>, app
-)
+  </Provider>, app)
 
